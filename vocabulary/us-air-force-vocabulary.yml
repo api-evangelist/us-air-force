@@ -1,0 +1,140 @@
+name: US Air Force Vocabulary
+description: >-
+  Vocabulary and taxonomy for the Department of the Air Force, covering organizational
+  structure, programs, data concepts, and API/technology terms used in DAF systems,
+  open data publications, and the DAF API-first architecture initiative.
+url: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/vocabulary/us-air-force-vocabulary.yml
+created: '2026-05-03'
+modified: '2026-05-03'
+
+categories:
+  - name: Organizational Units
+    description: Key organizational entities within the Air Force
+    terms:
+      - term: Department of the Air Force
+        abbreviation: DAF
+        definition: >-
+          The executive department of the US federal government responsible for the United States Air Force
+          and United States Space Force.
+      - term: United States Air Force
+        abbreviation: USAF
+        definition: The air service branch of the United States Armed Forces.
+      - term: Air Force CIO
+        abbreviation: DAFCIO
+        definition: >-
+          Department of the Air Force Chief Information Officer, responsible for IT strategy
+          including the API-first architecture initiative.
+      - term: Air Force Major Command
+        abbreviation: MAJCOM
+        definition: A major subdivision of the Air Force that is assigned a major part of the Air Force mission.
+      - term: Wing
+        definition: The basic unit in the Air Force. A wing has a specific mission and may be made up of groups.
+      - term: Squadron
+        definition: The basic unit in the Air Force. Most of the Air Force's operational activities take place at the squadron level.
+
+  - name: Installations
+    description: Types of Air Force physical locations and facilities
+    terms:
+      - term: Air Force Base
+        abbreviation: AFB
+        definition: A military installation of the United States Air Force.
+      - term: Air Force Station
+        abbreviation: AFS
+        definition: A smaller Air Force installation, generally without a flying mission.
+      - term: Air National Guard Base
+        abbreviation: ANGB
+        definition: A military installation of the Air National Guard.
+      - term: Air Force Reserve Base
+        definition: A military installation of the Air Force Reserve Command.
+      - term: Range
+        definition: A designated area used for weapons testing or training exercises.
+
+  - name: Aircraft and Equipment
+    description: Air Force equipment and platform categories
+    terms:
+      - term: Fighter Aircraft
+        definition: A military aircraft designed primarily for air-to-air combat.
+      - term: Bomber
+        definition: A military aircraft designed to attack ground and naval targets.
+      - term: Tanker
+        definition: A military aircraft used to transfer fuel to other aircraft during flight.
+      - term: Cargo Aircraft
+        definition: A military aircraft used to transport supplies, personnel, and equipment.
+      - term: Unmanned Aerial Vehicle
+        abbreviation: UAV
+        definition: An aircraft without a human pilot aboard, controlled remotely or autonomously.
+
+  - name: Data and Technology
+    description: Technical and data management concepts
+    terms:
+      - term: API-First Architecture
+        definition: >-
+          A software design approach where application programming interfaces are designed and
+          developed before other components of the software application, enabling reuse and
+          interoperability across DAF systems.
+      - term: DAF API Roadmap
+        definition: >-
+          The strategic planning document outlining the Department of the Air Force's phased
+          approach to implementing API-first architecture from FY2024 to FY2026.
+      - term: Open Data
+        definition: >-
+          Data that is freely available to everyone to use and republish without restrictions
+          from copyright, patents, or other mechanisms of control.
+      - term: Data Catalog
+        definition: >-
+          An inventory of available data assets within the organization, containing metadata
+          about each dataset to help users find and understand data.
+      - term: FOIA
+        expansion: Freedom of Information Act
+        definition: >-
+          Federal law that gives the public the right to request access to records from any
+          federal agency.
+      - term: RESTful API
+        definition: >-
+          An application programming interface that uses HTTP requests to perform CRUD
+          (Create, Read, Update, Delete) operations conforming to REST architectural constraints.
+      - term: Air Force Open Data Program
+        definition: >-
+          The official program at data.af.mil for publishing and providing public access to
+          Department of the Air Force datasets.
+
+  - name: Mission Areas
+    description: Primary Air Force operational mission categories
+    terms:
+      - term: Air Superiority
+        definition: The degree of dominance in the air battle that permits friendly air and ground forces to operate freely.
+      - term: Intelligence, Surveillance, and Reconnaissance
+        abbreviation: ISR
+        definition: >-
+          Activities that synchronize and integrate the planning and operation of sensors, assets,
+          and processing, exploitation, and dissemination systems.
+      - term: Mobility and Lift
+        definition: The movement of military forces and materiel by air transport.
+      - term: Global Strike
+        definition: The ability to rapidly project air, space, and information power on a global scale.
+      - term: Command and Control
+        abbreviation: C2
+        definition: >-
+          The exercise of authority and direction by a commander over assigned and attached forces
+          in the accomplishment of the mission.
+      - term: Cyberspace Operations
+        definition: The employment of cyber capabilities to achieve objectives in or through cyberspace.
+      - term: Space Operations
+        definition: Military activities conducted in or through the space domain.
+
+  - name: Research and Development
+    description: Air Force research programs and categories
+    terms:
+      - term: Air Force Research Laboratory
+        abbreviation: AFRL
+        definition: >-
+          The primary scientific research and development center of the United States Air Force,
+          responsible for leading the discovery, development, and delivery of war-fighting
+          technologies for the Air Force and Space Force.
+      - term: Science and Technology
+        abbreviation: S&T
+        definition: Research and development activities focused on advancing military capabilities.
+      - term: Basic Research
+        definition: Theoretical work to advance knowledge without specific applications.
+      - term: Applied Research
+        definition: Research to advance knowledge for specific applications in defense.

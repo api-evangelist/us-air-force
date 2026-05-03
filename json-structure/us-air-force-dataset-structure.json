@@ -1,0 +1,141 @@
+{
+  "name": "Air Force Open Dataset",
+  "description": "Structure documentation for Department of the Air Force open datasets published via data.af.mil",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "required": true,
+      "description": "Unique dataset identifier"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "description": "Human-readable dataset title"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": true,
+      "description": "Dataset summary and purpose"
+    },
+    {
+      "name": "publisher",
+      "type": "object",
+      "required": true,
+      "description": "Publishing organization",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": true,
+          "description": "Organization name"
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "required": false,
+          "description": "Organization URL"
+        }
+      ]
+    },
+    {
+      "name": "keyword",
+      "type": "array<string>",
+      "required": false,
+      "description": "Tags and keywords for the dataset"
+    },
+    {
+      "name": "theme",
+      "type": "array<string>",
+      "required": false,
+      "description": "Subject categories"
+    },
+    {
+      "name": "modified",
+      "type": "string (date-time)",
+      "required": false,
+      "description": "ISO 8601 last modification date"
+    },
+    {
+      "name": "issued",
+      "type": "string (date)",
+      "required": false,
+      "description": "ISO 8601 publication date"
+    },
+    {
+      "name": "accrualPeriodicity",
+      "type": "string",
+      "required": false,
+      "description": "Update frequency (ISO 8601 interval, e.g. R/P1Y)"
+    },
+    {
+      "name": "accessLevel",
+      "type": "enum",
+      "required": true,
+      "values": ["public", "restricted public", "non-public"],
+      "description": "Dataset access level"
+    },
+    {
+      "name": "license",
+      "type": "string (uri)",
+      "required": false,
+      "description": "License URL"
+    },
+    {
+      "name": "distribution",
+      "type": "array<object>",
+      "required": false,
+      "description": "Available download formats",
+      "fields": [
+        {
+          "name": "format",
+          "type": "enum",
+          "values": ["CSV", "JSON", "XML", "GeoJSON", "Shapefile", "PDF"],
+          "description": "File format"
+        },
+        {
+          "name": "downloadURL",
+          "type": "string (uri)",
+          "description": "Direct download URL"
+        },
+        {
+          "name": "mediaType",
+          "type": "string",
+          "description": "MIME type"
+        }
+      ]
+    },
+    {
+      "name": "spatial",
+      "type": "string",
+      "required": false,
+      "description": "Geographic coverage"
+    },
+    {
+      "name": "temporal",
+      "type": "string",
+      "required": false,
+      "description": "Temporal coverage range"
+    },
+    {
+      "name": "contactPoint",
+      "type": "object",
+      "required": false,
+      "description": "Dataset contact information",
+      "fields": [
+        {
+          "name": "fn",
+          "type": "string",
+          "description": "Contact full name"
+        },
+        {
+          "name": "hasEmail",
+          "type": "string (email)",
+          "description": "Contact email address"
+        }
+      ]
+    }
+  ]
+}

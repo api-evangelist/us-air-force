@@ -1,0 +1,48 @@
+{
+  "@context": "https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/json-ld/us-air-force-context.jsonld",
+  "@type": "Dataset",
+  "id": "af-installations-dataset-001",
+  "title": "Department of the Air Force Military Installations",
+  "description": "Geographic and operational data for major Air Force installations, bases, ranges, and training areas in the United States and its territories.",
+  "publisher": {
+    "@type": "GovernmentOrganization",
+    "name": "Department of the Air Force",
+    "url": "https://www.af.mil/"
+  },
+  "keyword": [
+    "Air Force",
+    "Military Installations",
+    "Air Force Base",
+    "Geographic Data",
+    "Defense",
+    "DoD",
+    "Military"
+  ],
+  "theme": [
+    "Military and Defense",
+    "Geographic Information",
+    "Public Land"
+  ],
+  "modified": "2025-01-15T00:00:00Z",
+  "issued": "2020-03-01",
+  "accrualPeriodicity": "R/P1Y",
+  "accessLevel": "public",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "distribution": [
+    {
+      "format": "CSV",
+      "downloadURL": "https://www.data.af.mil/downloads/installations.csv",
+      "mediaType": "text/csv"
+    },
+    {
+      "format": "GeoJSON",
+      "downloadURL": "https://www.data.af.mil/downloads/installations.geojson",
+      "mediaType": "application/geo+json"
+    }
+  ],
+  "spatial": "United States and Territories",
+  "contactPoint": {
+    "fn": "DAF Open Data Program",
+    "hasEmail": "opendata@af.mil"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/json-schema/us-air-force-dataset-schema.json",
+  "title": "Air Force Open Dataset",
+  "description": "Schema for a dataset published through the Department of the Air Force Open Data Program at data.af.mil",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the dataset"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable title of the dataset"
+    },
+    "description": {
+      "type": "string",
+      "description": "Summary description of the dataset contents and purpose"
+    },
+    "publisher": {
+      "type": "object",
+      "description": "Organization that published the dataset",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "Department of the Air Force"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["name"]
+    },
+    "keyword": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags and keywords associated with the dataset"
+    },
+    "theme": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Subject categories for the dataset"
+    },
+    "modified": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last modification date in ISO 8601 format"
+    },
+    "issued": {
+      "type": "string",
+      "format": "date",
+      "description": "Publication date in ISO 8601 format"
+    },
+    "accrualPeriodicity": {
+      "type": "string",
+      "description": "Update frequency (e.g., R/P1Y for annual, R/P1M for monthly)"
+    },
+    "accessLevel": {
+      "type": "string",
+      "enum": ["public", "restricted public", "non-public"],
+      "description": "Access level for the dataset"
+    },
+    "license": {
+      "type": "string",
+      "description": "License URL for the dataset"
+    },
+    "distribution": {
+      "type": "array",
+      "description": "Available download formats and endpoints",
+      "items": {
+        "type": "object",
+        "properties": {
+          "format": {
+            "type": "string",
+            "enum": ["CSV", "JSON", "XML", "GeoJSON", "Shapefile", "PDF"],
+            "description": "File format of the distribution"
+          },
+          "downloadURL": {
+            "type": "string",
+            "format": "uri",
+            "description": "Direct download URL"
+          },
+          "mediaType": {
+            "type": "string",
+            "description": "MIME type of the distribution"
+          }
+        }
+      }
+    },
+    "spatial": {
+      "type": "string",
+      "description": "Geographic coverage of the dataset"
+    },
+    "temporal": {
+      "type": "string",
+      "description": "Temporal coverage of the dataset"
+    },
+    "contactPoint": {
+      "type": "object",
+      "description": "Point of contact for the dataset",
+      "properties": {
+        "fn": {
+          "type": "string",
+          "description": "Full name of contact"
+        },
+        "hasEmail": {
+          "type": "string",
+          "format": "email"
+        }
+      }
+    }
+  },
+  "required": ["id", "title", "description", "publisher", "accessLevel"]
+}
