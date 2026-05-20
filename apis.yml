@@ -1,6 +1,9 @@
 aid: us-air-force
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/apis.yml
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/united-states-air-force
 apis:
   - aid: us-air-force:us-air-force-open-data
     name: US Air Force Open Data
