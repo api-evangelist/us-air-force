@@ -28,7 +28,7 @@ apis:
       - url: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/json-ld/us-air-force-context.jsonld
         type: JSONLDContext
       - url: https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/examples/us-air-force-open-data-dataset-example.json
-        type: Example
+        type: Examples
     description: >-
       The Air Force OPEN Data Program provides public access to Department of the Air Force
       datasets, covering military installations, personnel data, research findings, and operational
