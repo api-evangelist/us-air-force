@@ -2,6 +2,8 @@ aid: us-air-force
 url: >-
   https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/apis.yml
 common:
+  - type: DomainSecurity
+    url: security/us-air-force-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/united-states-air-force
 apis:
