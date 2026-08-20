@@ -12,6 +12,12 @@ apis:
     tags:
       - Air Force
       - Open Data
+      - Federal-Government
+      - Military
+      - Defense
+    tags_raw:
+      - Air Force
+      - Open Data
       - Federal Government
       - Military
       - Defense
@@ -41,6 +47,13 @@ apis:
     tags:
       - Air Force
       - Developer API
+      - Federal-Government
+      - Military
+      - Defense
+      - API-First
+    tags_raw:
+      - Air Force
+      - Developer API
       - Federal Government
       - Military
       - Defense
@@ -63,6 +76,13 @@ apis:
       approach covers FY2024 through FY2026 implementation phases.
 name: US Air Force
 tags:
+  - Air Force
+  - Federal-Government
+  - Military
+  - Defense
+  - Open Data
+  - Government API
+tags_raw:
   - Air Force
   - Federal Government
   - Military
