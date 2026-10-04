@@ -12,7 +12,7 @@ apis:
     tags:
       - Air Force
       - Open Data
-      - Federal-Government
+      - Federal Government
       - Military
       - Defense
     tags_raw:
@@ -21,6 +21,7 @@ apis:
       - Federal Government
       - Military
       - Defense
+      - Federal-Government
     humanURL: https://www.data.af.mil/
     properties:
       - url: https://www.data.af.mil/
@@ -47,7 +48,7 @@ apis:
     tags:
       - Air Force
       - Developer API
-      - Federal-Government
+      - Federal Government
       - Military
       - Defense
       - API-First
@@ -58,6 +59,7 @@ apis:
       - Military
       - Defense
       - API-First
+      - Federal-Government
     humanURL: https://www.dafcio.af.mil/
     properties:
       - url: https://www.dafcio.af.mil/
@@ -77,7 +79,7 @@ apis:
 name: US Air Force
 tags:
   - Air Force
-  - Federal-Government
+  - Federal Government
   - Military
   - Defense
   - Open Data
@@ -89,6 +91,7 @@ tags_raw:
   - Defense
   - Open Data
   - Government API
+  - Federal-Government
 kind: contract
 deliveryModel:
   model: unknown
