@@ -64,88 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The United States Air Force is responsible for providing air and space power to protect the United States and its interests. As part of the Department of the Air Force (DAF), the USAF has adopted an API-first architecture strategy to improve data sharing, software interoperability, and integration across military systems. The DAF publishes open datasets through data.af.mil and provides developer resources through software.af.mil.
+The United States Air Force is responsible for providing air and space power to protect the United States and its interests. As part of the Department of the Air Force, the USAF has adopted an API-first architecture strategy to improve data sharing, software interoperability, and integration across military systems. The DAF publishes open datasets through data.af.mil and provides developer resources through software.af.mil.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/us-air-force/refs/heads/main/apis.yml)
+**Areas:** Air Force · Federal Government · Military · Defense · Open Data · Government API
 
-## Scope
+## US Air Force on APIs.io
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for US Air Force is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/us-air-force/](https://apis.io/providers/us-air-force/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Air Force, Federal Government, Military, Defense, Open Data, Government API
+- [US Air Force Open Data](https://apis.io/apis/us-air-force/us-air-force-open-data/) — The Air Force OPEN Data Program provides public access to Department of the Air Force datasets, covering military installations, personnel data, research…
+- [US Air Force DAF API Program](https://apis.io/apis/us-air-force/us-air-force-developer-api/) — The Department of the Air Force API program provides a strategic framework for standardized APIs across the DAF enterprise. The DAF API Roadmap 2.0 and API…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-11-21
-- **Modified:** 2026-05-03
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (1)
 
-### US Air Force Open Data
+The data models the API reads and writes.
 
-The Air Force OPEN Data Program provides public access to Department of the Air Force datasets, covering military installations, personnel data, research findings, and operational information.
+- [Air Force Open Dataset](https://apis.io/schemas/us-air-force/us-air-force-dataset/)
 
-**Human URL:** [https://www.data.af.mil/](https://www.data.af.mil/)
+#### JSON Structure (1)
 
-#### Tags
+Data models expressed in JSON Structure.
 
-- Air Force, Open Data, Federal Government, Military, Defense
+- [Us Air Force Dataset Structure](https://apis.io/json-structure/us-air-force/us-air-force-dataset-structure/)
 
-#### Properties
+#### JSON-LD (1)
 
-- [Documentation](https://www.data.af.mil/)
-- [Data Catalog](https://www.data.af.mil/Data-Catalog/)
-- [Data.gov](https://catalog.data.gov/dataset/?tags=air-force)
-- [JSON Schema](json-schema/us-air-force-dataset-schema.json)
-- [JSON Structure](json-structure/us-air-force-dataset-structure.json)
-- [JSON-LD Context](json-ld/us-air-force-context.jsonld)
-- [Example](examples/us-air-force-open-data-dataset-example.json)
+Linked-data contexts for the provider's vocabulary.
 
-### US Air Force DAF API Program
+- [Us Air Force Context](https://apis.io/jsonld/us-air-force/us-air-force-context/)
 
-The Department of the Air Force API program provides a strategic framework for standardized APIs across the DAF enterprise. The DAF API Roadmap 2.0 and API Reference Architecture 2.0 guide implementation through FY2024-FY2026.
+#### Vocabulary (1)
 
-**Human URL:** [https://www.dafcio.af.mil/](https://www.dafcio.af.mil/)
+The provider's domain terms, defined.
 
-#### Tags
+- [US Air Force Vocabulary](https://apis.io/vocabularies/us-air-force/us-air-force-vocabulary/)
 
-- Air Force, Developer API, Federal Government, Military, Defense, API-First
+#### Examples (1)
 
-#### Properties
+Example requests and responses.
 
-- [Documentation](https://www.dafcio.af.mil/)
-- [Roadmap](https://www.dafcio.af.mil/Portals/64/Documents/Strategy/DAF%20API%20Roadmap%202.0_25OCT.pdf)
-- [Reference Architecture](https://www.dafcio.af.mil/Portals/64/Documents/Strategy/DAF%20API%20Reference%20Architecture%202.0.pdf)
-- [Developer Portal](https://software.af.mil/)
+- [Us Air Force Open Data Dataset Example](https://apis.io/examples/us-air-force/us-air-force-open-data-dataset-example/)
 
-## Artifacts
+#### Governance rules (1)
 
-### JSON Schema
+Spectral rulesets for the provider's contracts.
 
-- [Air Force Open Dataset Schema](json-schema/us-air-force-dataset-schema.json)
+- [US Air Force — jsonschema rules](https://apis.io/rules/us-air-force/us-air-force-jsonschema-spectral-rules/)
 
-### JSON Structure
+#### Security (1)
 
-- [Air Force Open Dataset Structure](json-structure/us-air-force-dataset-structure.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-### JSON-LD
+- [Us Air Force Domain Security](https://apis.io/security/us-air-force/us-air-force-domain-security/)
 
-- [Air Force Context](json-ld/us-air-force-context.jsonld)
+#### Plans and pricing (1)
 
-### Examples
+Published plans, tiers and prices.
 
-- [Open Data Dataset Example](examples/us-air-force-open-data-dataset-example.json)
+- [Us Air Force Plans Pricing](https://apis.io/plans/us-air-force/us-air-force-plans-pricing/)
 
-### Vocabulary
+#### Rate limits (1)
 
-- [Air Force Vocabulary](vocabulary/us-air-force-vocabulary.yml)
+Published request limits.
 
-## Maintainers
+- [Us Air Force Rate Limits](https://apis.io/rate-limits/us-air-force/us-air-force-rate-limits/)
 
-**FN:** Kin Lane
+#### FinOps (1)
 
-**Email:** kin@apievangelist.com
+What the API costs to run, by operation.
+
+- [Us Air Force Finops](https://apis.io/finops/us-air-force/us-air-force-finops/)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for US Air Force: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/us-air-force/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
